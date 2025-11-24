@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int St;
+
+    cout << "Inserisci un numero da 1 a 4: ";
+    cin >> St;
+
+    switch (St) {
+        case 1:
+            cout << "Inverno" << endl;
+            break;
+
+        case 2:
+            cout << "Primavera" << endl;
+            break;
+
+        case 3:
+            cout << "Estate" << endl;
+            break;
+
+        case 4:
+            cout << "Autunno" << endl;
+            break;
+
+        default:
+            cout << "Stagione non valida" << endl;
+    }
+
+    return 0;
+}

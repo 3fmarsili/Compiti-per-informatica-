@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+
+    cout << "Inserisci un numero: ";
+    cin >> num;
+
+    if (num == 0)
+        cout << "zero" << endl;
+    else if (num == 1)
+        cout << "uno" << endl;
+    else
+        cout << "Non previsto" << endl;
+
+    return 0;
+}

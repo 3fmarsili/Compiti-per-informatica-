@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string nome;
+    int eta;
+
+    cout << "Inserire il nome: ";
+    cin >> nome;
+
+    cout << "Inserire l'eta': ";
+    cin >> eta;
+
+    if (eta >= 18)
+        cout << nome << " e' maggiorenne\n";
+    else
+        cout << nome << " e' minorenne\n";
+
+    return 0;
+}
